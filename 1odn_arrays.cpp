@@ -1,14 +1,12 @@
 #include "stdafx.h"
 #include "math.h"
 #include "stdlib.h"
-#include "locale.h"
 #include "time.h"
 int main()
 {
 	const unsigned int N=5;
 	unsigned int a, b, i, sum1, sum2; // sum1=chetnie_ch;sum2=nechetnie_ch;
 	unsigned int massiv[N]; //zadaem massiv
-	setlocale(LC_ALL, "Russian");
 	srand(time(0)); // inicializaciya rand; time = tekyshee kal-oe.time; 
 	sum1 = 0; // 0 y time start tochka dlya posledovatelnosti;
 	sum2 = 0;
